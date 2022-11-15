@@ -4,10 +4,10 @@ margin: 0px;
 padding: 0px;
 background-color: #F8F9FA;
 }
-
-
-
-
+.header-right a{
+    text-decoration: none;
+     
+}
 .navbar{
     padding-top:29px ;
     background-color: rgba(0, 0, 0, 0);

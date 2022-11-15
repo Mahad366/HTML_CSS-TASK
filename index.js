@@ -21,13 +21,6 @@ window.addEventListener("scroll", () => {
 });
 
 window.addEventListener("scroll", () => {
-  // if (pageYOffset > 400) {
-  //   navbar.style.backgroundColor = "#ffffff";
-  // }
-  // if (pageYOffset < 401) {
-  //   navbar.style.backgroundColor = "rgba(0, 0, 0, 0)";
-  // }
-
   pageYOffset > 400
     ? (navbar.style.backgroundColor = "#ffffff")
     : (navbar.style.backgroundColor = "rgba(0, 0, 0, 0)");
